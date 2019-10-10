@@ -41,6 +41,11 @@ gem 'twitter-bootstrap-rails'
 gem 'jquery-rails'
 gem 'devise-bootstrap-views'
 
+gem "stock_quote", '~> 3.0.0'
+gem 'font-awesome-sass', '~> 5.11.2'
+
+gem 'iex-ruby-client'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
