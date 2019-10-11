@@ -19,9 +19,12 @@
   <% end %>
 </div>
 
+<% if @stock != nil %>
 <div class="well results-block">
   <strong>Symbol: </strong><%= @stock.ticker %>
   <strong>Company name: </strong><%= @stock.name %>
   <strong>Latest price: </strong><%= @stock.last_price %>
   
 </div>
+
+<% end %>
